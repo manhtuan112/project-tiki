@@ -1,0 +1,235 @@
+/* ========PC======== */
+@media (min-width: 1024px){
+
+}
+
+/*========Tablet========*/
+@media (min-width: 740px) and (max-width: 1023px){
+    .infinite-content>div{
+        flex: 0 0 33.333%;
+    }
+
+}
+
+/*========Tablet and mobile========*/
+@media (max-width: 1023px){
+    .ms-mg-t-12{
+        margin-top: 12px;
+    }
+
+    .ms-pd-12{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .ms-mg-8{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+    #header-mobile{
+        display: block;
+    }
+    
+    /*background img for body*/
+    body{
+        background: url("https://salt.tikicdn.com/ts/banner/69/c5/56/cd35caee648e44fe0334ae326e8e2b79.png");
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-size: 120%;
+    }
+
+
+    .home-banner-left{
+        width: 100%;
+    }
+
+    .home-banner{
+        margin-top: 96px;
+    }
+
+    
+
+    /* --------deal--------- */
+    .wr-home-deal .header{
+        height: 35px;
+        padding: 8px 7px;
+    }
+
+    .wr-home-deal .header img{
+        height: 21px;
+        margin-right: 2px;
+    }
+
+    .navigation .countdown,
+    .navigation .countdown span
+    {
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    .slick-list-more>a,
+    .slick-list-item>a{
+        width: 80px;
+    }
+
+    .slick-list-more,
+    .slick-list-item{
+        flex: 0 0 0;
+        padding: 0px;
+        margin-right: 8px;
+
+    }
+
+    .picture{
+        width: auto;
+    }
+
+    .deal-price{
+        font-size: 11px;
+        line-height: 16px;
+        margin: 8px 0;
+    }
+
+    .deal-qty{
+        height: 15px;
+    }
+
+    .deal-qty>span{
+        font-size: 9px;
+        line-height: 12px;
+        padding-left: 14px;
+    }
+
+    .deal-qty>.deal-progess{
+        height: 100%;
+        min-width: 15px;
+    }
+
+    .slick-arrow{
+        display: none;
+    }
+
+    .slick-list{
+        overflow: auto;
+        padding-bottom: 15px;
+        padding-left: 7px;
+    }
+
+    .home-deal::after{
+        display: block;
+        content: "";
+        position: absolute;
+        right: 0px;
+        z-index: 3;
+        width: 60px;
+        top: 34px;
+        bottom: 0px;
+        border-bottom-left-radius: 5px;
+        pointer-events: none;
+        background: linear-gradient(to left, rgb(255, 255, 255, 0.6), rgba(255, 255, 255, 0));
+    }
+
+    .home-deal::before{
+        display: block;
+        content: "";
+        position: absolute;
+        left: 0px;
+        z-index: 3;
+        width: 60px;
+        top: 34px;
+        bottom: 0px;
+        border-bottom-left-radius: 5px;
+        pointer-events: none;
+        background: linear-gradient(to right, rgb(255, 255, 255, 0.6), rgba(255, 255, 255, 0));
+    }
+
+    /* --Tiki-app-advertisement-mobile+tablet-- */
+    .app-advertisement,
+    .enfa-advertisement{
+        display: block;
+    }
+
+    /* quicklinks-tab-mobile+tablet */
+    .quicklinks-tab{
+        display: none;
+    }
+
+    .quicklinks-tab-mobile{
+        display: block;
+    }
+
+    /* hot-product-mobile */
+    .hot-product{
+        display: block;
+    }
+    
+
+
+    
+    .zalopay-tab,
+    .banner-middle-tab,
+    .features-search-tab,
+    .features-category-tab{
+        display: none;
+    }
+
+    .features-category-mobile{
+        display: block;
+    }
+
+    /* -- Home-Infinite-Scroll -- */
+
+    .header-sticky{
+        position: relative;
+        margin-top: 12px;
+    }
+
+    .header-sticky .Home-Infinite-Scroll-title{
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    .header-sticky .Home-Infinite-Scroll-tab>div{
+        flex-basis: 80px;
+    }
+
+    
+    
+
+    .thumb-item{
+        width: 100%;
+        height: 100%;
+    }
+
+    .thumb-item>img{
+        width: 100%;
+    }
+
+    .wr-view-more {
+        padding: 10px 0;
+        margin-bottom: 46px;
+    }
+
+    .view-more{
+        margin-bottom: 10px;
+    }
+    header,
+    footer,
+    .home-banner-right
+    {
+        display: none;
+    }
+    
+    #footer-mobile{
+        display: flex;
+    }
+}
+
+/*========Mobile========*/
+@media (max-width: 739px){
+    .infinite-content>div{
+        flex: 0 0 50%;
+    }
+}
+
